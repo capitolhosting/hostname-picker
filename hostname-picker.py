@@ -4,7 +4,7 @@ import os
 import random
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate a random name from a given category')
+    parser = argparse.ArgumentParser(description='Pick a random name from a given category')
     parser.add_argument('-c', '--category', type=str, choices=['birds', 'artists',], required=True, help='The category to choose from')
     args = parser.parse_args()
 
